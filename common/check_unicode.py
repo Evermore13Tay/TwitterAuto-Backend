@@ -1,0 +1,1 @@
+import sys; content = open('mytRpc.py', 'r', encoding='utf-8').read(); print('Unicode check:'); print('OK count:', content.count('[OK]')); print('FAIL count:', content.count('[FAIL]')); print('Unicode ✅ count:', content.count('✅')); print('Unicode ❌ count:', content.count('❌'))
